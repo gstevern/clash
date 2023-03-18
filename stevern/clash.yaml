@@ -1,9 +1,9 @@
 ####################################
 # 创建者：花果生
 # 客户端：Clash
-# 创建时间：2023-03-18 21:27:24
+# 创建时间：2023-03-18 22:04:15
 # 使用模版：改良
-# 节点数量：4
+# 节点数量：60
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -25,6 +25,62 @@ proxies:
   - {"name":"defaultName_2","type":"vmess","server":"43.159.196.4","port":34055,"cipher":"auto","uuid":"00e35854-8706-470e-af31-e30e557e7e5e","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hk3/getData","headers":{"host":"hk3.verichains.co"}}}
   - {"name":"defaultName_3","type":"vmess","server":"43.156.110.222","port":21839,"cipher":"auto","uuid":"f21f434d-8097-4302-9c0c-0b0c7dffcfcb","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sg6/getData","headers":{"host":"sg6.verichains.co"}}}
   - {"name":"defaultName_4","type":"vmess","server":"43.156.111.144","port":51527,"cipher":"auto","uuid":"ffd17b65-3ea1-42e6-a75a-9c90caebb530","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sg5/getData","headers":{"host":"sg5.linkeden.co"}}}
+  - {"name":"「SCP」US-DO","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us1.sharecentrepro.com"}}}
+  - {"name":"「SCP」DE-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-LN-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」UK-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"香港CMI","type":"vmess","server":"qwe12ewq34.buzz","port":443,"cipher":"auto","uuid":"368d8b1c-140a-40cd-ba83-4e5e5c3805ea","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/368d8b1c-140a-40cd-ba83-4e5e5c3805ea"}}
+  - {"name":"US-4837","type":"hysteria","server":"4837.gzx7301.gay","port":36231,"sni":"4837.gzx7301.gay","alpn":["h3"],"protocol":"udp","auth_str":"IXkLymddKJiRzwrcGpW512Hu58DTrck12WYdjmOzUbOz7kUo8s","up":165,"down":220}
+  - {"name":"更多节点关注@ShareCentrePro","type":"vmess","server":"127.0.0.1","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"「SCP」UK-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」UK-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」UK-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-LN-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-LN-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-LN-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」HK-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」HK-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」HK-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」HK-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」JP-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」CA-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」CA-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」CA-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」CA-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」SG-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」SG-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」SG-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」SG-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」DE-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」DE-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」DE-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM1 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM1 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM1 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM2 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM2 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM2 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM3","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM3 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM3 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-BuyVM3 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP1 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP1 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP1 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP2 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP2 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」US-DP2 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」KH-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」KH-CF 电信优化","type":"vmess","server":"cf-dx-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」KH-CF 联通优化","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"「SCP」KH-CF 移动优化","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,6 +93,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +159,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -56,6 +224,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
     strategy: round-robin
   - name: ⚖️ 负载均衡-散列
     type: load-balance
@@ -66,6 +290,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
     strategy: consistent-hashing
   - name: 🌍 国外媒体
     type: select
@@ -77,6 +357,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
   - name: 📲 电报信息
     type: select
     proxies:
@@ -86,6 +422,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -95,6 +487,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -104,6 +552,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,6 +634,62 @@ proxy-groups:
       - defaultName_2
       - defaultName_3
       - defaultName_4
+      - 「SCP」US-DO
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」UK-CF
+      - 香港CMI
+      - US-4837
+      - 更多节点关注@ShareCentrePro
+      - 「SCP」UK-CF 电信优化
+      - 「SCP」UK-CF 联通优化
+      - 「SCP」UK-CF 移动优化
+      - 「SCP」JP-LN-CF 电信优化
+      - 「SCP」JP-LN-CF 联通优化
+      - 「SCP」JP-LN-CF 移动优化
+      - 「SCP」HK-CF
+      - 「SCP」HK-CF 电信优化
+      - 「SCP」HK-CF 联通优化
+      - 「SCP」HK-CF 移动优化
+      - 「SCP」JP-CF
+      - 「SCP」JP-CF 电信优化
+      - 「SCP」JP-CF 联通优化
+      - 「SCP」JP-CF 移动优化
+      - 「SCP」CA-CF
+      - 「SCP」CA-CF 电信优化
+      - 「SCP」CA-CF 联通优化
+      - 「SCP」CA-CF 移动优化
+      - 「SCP」SG-CF
+      - 「SCP」SG-CF 电信优化
+      - 「SCP」SG-CF 联通优化
+      - 「SCP」SG-CF 移动优化
+      - 「SCP」DE-CF 电信优化
+      - 「SCP」DE-CF 联通优化
+      - 「SCP」DE-CF 移动优化
+      - 「SCP」US-BuyVM1
+      - 「SCP」US-BuyVM1 电信优化
+      - 「SCP」US-BuyVM1 联通优化
+      - 「SCP」US-BuyVM1 移动优化
+      - 「SCP」US-BuyVM2
+      - 「SCP」US-BuyVM2 电信优化
+      - 「SCP」US-BuyVM2 联通优化
+      - 「SCP」US-BuyVM2 移动优化
+      - 「SCP」US-BuyVM3
+      - 「SCP」US-BuyVM3 电信优化
+      - 「SCP」US-BuyVM3 联通优化
+      - 「SCP」US-BuyVM3 移动优化
+      - 「SCP」US-DP1
+      - 「SCP」US-DP1 电信优化
+      - 「SCP」US-DP1 联通优化
+      - 「SCP」US-DP1 移动优化
+      - 「SCP」US-DP2
+      - 「SCP」US-DP2 电信优化
+      - 「SCP」US-DP2 联通优化
+      - 「SCP」US-DP2 移动优化
+      - 「SCP」KH-CF
+      - 「SCP」KH-CF 电信优化
+      - 「SCP」KH-CF 联通优化
+      - 「SCP」KH-CF 移动优化
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
