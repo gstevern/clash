@@ -1,9 +1,9 @@
 ####################################
 # 创建者：花果生
 # 客户端：Clash
-# 创建时间：2023-05-03 09:24:39
+# 创建时间：2023-06-04 13:34:54
 # 使用模版：改良
-# 节点数量：45
+# 节点数量：24
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,51 +21,30 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_1","type":"vmess","server":"107.167.12.24","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_2","type":"vmess","server":"108.186.116.178","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_3","type":"vmess","server":"137.175.15.198","port":43487,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_4","type":"vmess","server":"137.175.9.194","port":57402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_5","type":"vmess","server":"156.225.67.223","port":51440,"cipher":"auto","uuid":"ebec2adf-e940-446f-bed4-d8c91143b54a","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷_FR_电报频道： @pjrjzy","type":"vmess","server":"156.249.18.36","port":42335,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_6","type":"vmess","server":"172.67.145.116","port":8080,"cipher":"auto","uuid":"6d68cfc2-36e5-432d-b6f2-5ff431cd431b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/uitsrt","headers":{"host":"vc3chixui.uitsrt.me"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_7","type":"vmess","server":"192.74.229.216","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_8","type":"vmess","server":"192.74.229.216","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_9","type":"vmess","server":"192.74.231.176","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_10","type":"vmess","server":"198.2.218.197","port":51202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_3","type":"vmess","server":"223.167.41.222","port":63088,"cipher":"auto","uuid":"33d04ad6-c7da-3ba1-8941-3845978209a9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"tw-load-balancer.myn1des.com"}}}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_4","type":"vmess","server":"223.167.41.222","port":63088,"cipher":"auto","uuid":"33d04ad6-c7da-3ba1-8941-3845978209a9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"tw-load-balancer.myn1des.com"}}}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_5","type":"vmess","server":"223.167.41.41","port":63081,"cipher":"auto","uuid":"33d04ad6-c7da-3ba1-8941-3845978209a9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hkt2-cdn.tencent.best"}}}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_6","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_7","type":"vmess","server":"36.134.16.96","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_11","type":"vmess","server":"38.63.0.67","port":47002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇷🇴_RO_电报频道： @pjrjzy_1","type":"vmess","server":"45.85.119.1","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/8701b594-d144-11ed-8e14-5ad705867cff","headers":{"host":"8701b594-d144-11ed-8e14-5ad705867cff.asmandll.com"}}}
-  - {"name":"🇷🇴_RO_电报频道： @pjrjzy_2","type":"vmess","server":"45.85.119.1","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/8701b594-d144-11ed-8e14-5ad705867cff","headers":{"host":"8701b594-d144-11ed-8e14-5ad705867cff.asmandll.com"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_12","type":"vmess","server":"67.21.84.209","port":36088,"cipher":"auto","uuid":"b9a305a9-1ff2-4ec1-b338-933555833baa","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_13","type":"vmess","server":"67.21.84.209","port":36088,"cipher":"auto","uuid":"b9a305a9-1ff2-4ec1-b338-933555833baa","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_8","type":"ss","server":"a.gfw.services","port":21566,"password":"abc9a8de-024e-42ea-b1f3-b9ea7a85f9ed","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬_SG_电报频道： @pjrjzy_1","type":"trojan","server":"ap.stablize.top","port":443,"udp":true,"password":"10f94506-9bf9-4dbb-9542-3ff13893b190","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_14","type":"vmess","server":"cf.dalazhi.eu.org","port":443,"cipher":"auto","uuid":"896dfa91-7bfa-4335-8b3b-6d8cebed164d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bexcvws","headers":{"host":"tj1.dalazhi.eu.org"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_15","type":"vmess","server":"cf.dalazhi.eu.org","port":443,"cipher":"auto","uuid":"896dfa91-7bfa-4335-8b3b-6d8cebed164d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bexcvws","headers":{"host":"tj1.dalazhi.eu.org"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_16","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_17","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_18","type":"vmess","server":"inf.314156.xyz","port":80,"cipher":"auto","uuid":"5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/workerConfig","headers":{"host":"inf.314156.xyz"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_19","type":"vmess","server":"join-bede.vmessorg.fun","port":80,"cipher":"auto","uuid":"b91105c9-2061-40e6-9219-d04d5b4869d3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇰🇷_KR_电报频道： @pjrjzy","type":"trojan","server":"kr1.gsjc.cfd","port":443,"udp":true,"password":"d5be26d4-8d71-4d8e-a74c-ce8afdd09395","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_电报频道： @pjrjzy_1","type":"vmess","server":"n1681196439.aqdisrv.cn","port":443,"cipher":"auto","uuid":"1780a2d3-a892-4559-b242-d6bfdad4d869","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰_HK_电报频道： @pjrjzy_2","type":"vmess","server":"n1682393187.edpmvga.cn","port":443,"cipher":"auto","uuid":"c204042b-3f11-4860-b159-e3dd97dbefbe","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1682393187.edpmvga.cn"}}}
-  - {"name":"🇭🇰_HK_电报频道： @pjrjzy_3","type":"vmess","server":"n1682393187.edpmvga.cn","port":443,"cipher":"auto","uuid":"c204042b-3f11-4860-b159-e3dd97dbefbe","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1682393187.edpmvga.cn"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_20","type":"vmess","server":"new6.huvicloud.com","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huvi"}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_21","type":"vmess","server":"new6.huvicloud.com","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huvi"}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_22","type":"vmess","server":"quiz.vidio.com","port":443,"cipher":"auto","uuid":"92869d41-a98a-40ba-b79d-2eeb7ffe2433","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg1b.obfs.xyz"}}}
-  - {"name":"🇸🇬_SG_电报频道： @pjrjzy_2","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"9014ea56-3fec-43d8-bed6-af7bcb5e2cb3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_电报频道： @pjrjzy_3","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"9014ea56-3fec-43d8-bed6-af7bcb5e2cb3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_电报频道： @pjrjzy_4","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"9014ea56-3fec-43d8-bed6-af7bcb5e2cb3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_9","type":"vmess","server":"sh6c3zuc0.xz56bm2v8.lzmg3khpq.soabgo.com","port":45001,"cipher":"auto","uuid":"FF5D3BF5-1296-FB0A-4596-B3CD0C884200","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_10","type":"vmess","server":"sh6c3zuc0.xz56bm2v8.lzmg3khpq.soabgo.com","port":45001,"cipher":"auto","uuid":"FF5D3BF5-1296-FB0A-4596-B3CD0C884200","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_23","type":"vmess","server":"st.suchenawa.com","port":443,"cipher":"auto","uuid":"670c745c-8699-4741-95b1-2feffc0e6e0b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/suchen","headers":{"host":"st.suchenawa.com"}}}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_24","type":"vmess","server":"st.suchenawa.com","port":443,"cipher":"auto","uuid":"670c745c-8699-4741-95b1-2feffc0e6e0b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/suchen","headers":{"host":"st.suchenawa.com"}}}
+  - {"name":"JMS-373767@c2s1.jjvip8.com:56165","type":"ss","server":"65.49.192.253","port":56165,"password":"tdRft29eoWtbELzV","cipher":"aes-256-gcm"}
+  - {"name":"JMS-373767@c2s2.jjvip8.com:56165","type":"ss","server":"65.49.208.126","port":56165,"password":"tdRft29eoWtbELzV","cipher":"aes-256-gcm"}
+  - {"name":"JMS-373767@c2s3.jjvip8.com:56165","type":"vmess","server":"192.69.90.50","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-373767@c2s4.jjvip8.com:56165","type":"vmess","server":"206.190.236.74","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-373767@c2s5.jjvip8.com:56165","type":"vmess","server":"104.193.10.246","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-373767@c2s801.jjvip8.com:56165","type":"vmess","server":"23.83.228.56","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-690839@c81s1.jjvip8.com:6805","type":"ss","server":"65.49.198.42","port":6805,"password":"pCEdFts6TF6MgHCD","cipher":"aes-256-gcm"}
+  - {"name":"JMS-690839@c81s2.jjvip8.com:6805","type":"ss","server":"65.49.223.111","port":6805,"password":"pCEdFts6TF6MgHCD","cipher":"aes-256-gcm"}
+  - {"name":"JMS-690839@c81s3.jjvip8.com:6805","type":"vmess","server":"199.180.114.249","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-690839@c81s4.jjvip8.com:6805","type":"vmess","server":"23.106.129.142","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-690839@c81s5.jjvip8.com:6805","type":"vmess","server":"104.193.11.142","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-690839@c81s801.jjvip8.com:6805","type":"vmess","server":"174.137.58.160","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-515333@c68s1.jjvip8.com:6825","type":"ss","server":"65.49.223.175","port":6825,"password":"JNkrHLU9e4pqvUcV","cipher":"aes-256-gcm"}
+  - {"name":"JMS-515333@c68s2.jjvip8.com:6825","type":"ss","server":"23.105.202.21","port":6825,"password":"JNkrHLU9e4pqvUcV","cipher":"aes-256-gcm"}
+  - {"name":"JMS-515333@c68s3.jjvip8.com:6825","type":"vmess","server":"199.180.113.58","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-515333@c68s4.jjvip8.com:6825","type":"vmess","server":"212.50.255.148","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-515333@c68s5.jjvip8.com:6825","type":"vmess","server":"104.193.11.119","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-515333@c68s801.jjvip8.com:6825","type":"vmess","server":"174.137.50.177","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-463251@c78s1.jjvip8.com:63171","type":"ss","server":"65.49.219.190","port":63171,"password":"ZVvtMk5tkMPnvtJ2","cipher":"aes-256-gcm"}
+  - {"name":"JMS-463251@c78s2.jjvip8.com:63171","type":"ss","server":"138.128.222.14","port":63171,"password":"ZVvtMk5tkMPnvtJ2","cipher":"aes-256-gcm"}
+  - {"name":"JMS-463251@c78s3.jjvip8.com:63171","type":"vmess","server":"199.19.110.73","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-463251@c78s4.jjvip8.com:63171","type":"vmess","server":"178.157.59.12","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-463251@c78s5.jjvip8.com:63171","type":"vmess","server":"104.193.9.121","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"JMS-463251@c78s801.jjvip8.com:63171","type":"vmess","server":"174.137.49.89","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,203 +52,119 @@ proxy-groups:
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
     strategy: round-robin
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
     strategy: consistent-hashing
   - name: 🌍 国外媒体
     type: select
@@ -279,151 +174,88 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -443,51 +275,30 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇺🇸_US_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_2
-      - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - 🇺🇸_US_电报频道： @pjrjzy_5
-      - 🇫🇷_FR_电报频道： @pjrjzy
-      - 🇺🇸_US_电报频道： @pjrjzy_6
-      - 🇺🇸_US_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_8
-      - 🇺🇸_US_电报频道： @pjrjzy_9
-      - 🇺🇸_US_电报频道： @pjrjzy_10
-      - 🇨🇳_CN_电报频道： @pjrjzy_3
-      - 🇨🇳_CN_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_5
-      - 🇨🇳_CN_电报频道： @pjrjzy_6
-      - 🇨🇳_CN_电报频道： @pjrjzy_7
-      - 🇺🇸_US_电报频道： @pjrjzy_11
-      - 🇷🇴_RO_电报频道： @pjrjzy_1
-      - 🇷🇴_RO_电报频道： @pjrjzy_2
-      - 🇺🇸_US_电报频道： @pjrjzy_12
-      - 🇺🇸_US_电报频道： @pjrjzy_13
-      - 🇨🇳_CN_电报频道： @pjrjzy_8
-      - 🇸🇬_SG_电报频道： @pjrjzy_1
-      - 🇺🇸_US_电报频道： @pjrjzy_14
-      - 🇺🇸_US_电报频道： @pjrjzy_15
-      - 🇺🇸_US_电报频道： @pjrjzy_16
-      - 🇺🇸_US_电报频道： @pjrjzy_17
-      - 🇺🇸_US_电报频道： @pjrjzy_18
-      - 🇺🇸_US_电报频道： @pjrjzy_19
-      - 🇰🇷_KR_电报频道： @pjrjzy
-      - 🇭🇰_HK_电报频道： @pjrjzy_1
-      - 🇭🇰_HK_电报频道： @pjrjzy_2
-      - 🇭🇰_HK_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_20
-      - 🇺🇸_US_电报频道： @pjrjzy_21
-      - 🇺🇸_US_电报频道： @pjrjzy_22
-      - 🇸🇬_SG_电报频道： @pjrjzy_2
-      - 🇸🇬_SG_电报频道： @pjrjzy_3
-      - 🇸🇬_SG_电报频道： @pjrjzy_4
-      - 🇨🇳_CN_电报频道： @pjrjzy_9
-      - 🇨🇳_CN_电报频道： @pjrjzy_10
-      - 🇺🇸_US_电报频道： @pjrjzy_23
-      - 🇺🇸_US_电报频道： @pjrjzy_24
+      - JMS-373767@c2s1.jjvip8.com:56165
+      - JMS-373767@c2s2.jjvip8.com:56165
+      - JMS-373767@c2s3.jjvip8.com:56165
+      - JMS-373767@c2s4.jjvip8.com:56165
+      - JMS-373767@c2s5.jjvip8.com:56165
+      - JMS-373767@c2s801.jjvip8.com:56165
+      - JMS-690839@c81s1.jjvip8.com:6805
+      - JMS-690839@c81s2.jjvip8.com:6805
+      - JMS-690839@c81s3.jjvip8.com:6805
+      - JMS-690839@c81s4.jjvip8.com:6805
+      - JMS-690839@c81s5.jjvip8.com:6805
+      - JMS-690839@c81s801.jjvip8.com:6805
+      - JMS-515333@c68s1.jjvip8.com:6825
+      - JMS-515333@c68s2.jjvip8.com:6825
+      - JMS-515333@c68s3.jjvip8.com:6825
+      - JMS-515333@c68s4.jjvip8.com:6825
+      - JMS-515333@c68s5.jjvip8.com:6825
+      - JMS-515333@c68s801.jjvip8.com:6825
+      - JMS-463251@c78s1.jjvip8.com:63171
+      - JMS-463251@c78s2.jjvip8.com:63171
+      - JMS-463251@c78s3.jjvip8.com:63171
+      - JMS-463251@c78s4.jjvip8.com:63171
+      - JMS-463251@c78s5.jjvip8.com:63171
+      - JMS-463251@c78s801.jjvip8.com:63171
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
