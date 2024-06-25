@@ -1,9 +1,10 @@
 ####################################
-# 创建者：花果生
-# 客户端：Clash
-# 创建时间：2023-06-04 13:34:54
-# 使用模版：改良
-# 节点数量：24
+# 创建者：v2rayse.com
+# 客户端：{@client}
+# 创建时间：{@date}
+# 使用模版：{@template}
+# 节点数量：{@count}
+# 节点类型：{@type}
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -19,153 +20,37 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
-proxies:
-  - {"name":"JMS-373767@c2s1.jjvip8.com:56165","type":"ss","server":"65.49.192.253","port":56165,"password":"tdRft29eoWtbELzV","cipher":"aes-256-gcm"}
-  - {"name":"JMS-373767@c2s2.jjvip8.com:56165","type":"ss","server":"65.49.208.126","port":56165,"password":"tdRft29eoWtbELzV","cipher":"aes-256-gcm"}
-  - {"name":"JMS-373767@c2s3.jjvip8.com:56165","type":"vmess","server":"192.69.90.50","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-373767@c2s4.jjvip8.com:56165","type":"vmess","server":"206.190.236.74","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-373767@c2s5.jjvip8.com:56165","type":"vmess","server":"104.193.10.246","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-373767@c2s801.jjvip8.com:56165","type":"vmess","server":"23.83.228.56","port":56165,"cipher":"auto","uuid":"c362f7a5-c613-455f-844b-78fb45cd77f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-690839@c81s1.jjvip8.com:6805","type":"ss","server":"65.49.198.42","port":6805,"password":"pCEdFts6TF6MgHCD","cipher":"aes-256-gcm"}
-  - {"name":"JMS-690839@c81s2.jjvip8.com:6805","type":"ss","server":"65.49.223.111","port":6805,"password":"pCEdFts6TF6MgHCD","cipher":"aes-256-gcm"}
-  - {"name":"JMS-690839@c81s3.jjvip8.com:6805","type":"vmess","server":"199.180.114.249","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-690839@c81s4.jjvip8.com:6805","type":"vmess","server":"23.106.129.142","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-690839@c81s5.jjvip8.com:6805","type":"vmess","server":"104.193.11.142","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-690839@c81s801.jjvip8.com:6805","type":"vmess","server":"174.137.58.160","port":6805,"cipher":"auto","uuid":"df7970a5-8255-46ab-80fd-5dfdf8e569b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-515333@c68s1.jjvip8.com:6825","type":"ss","server":"65.49.223.175","port":6825,"password":"JNkrHLU9e4pqvUcV","cipher":"aes-256-gcm"}
-  - {"name":"JMS-515333@c68s2.jjvip8.com:6825","type":"ss","server":"23.105.202.21","port":6825,"password":"JNkrHLU9e4pqvUcV","cipher":"aes-256-gcm"}
-  - {"name":"JMS-515333@c68s3.jjvip8.com:6825","type":"vmess","server":"199.180.113.58","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-515333@c68s4.jjvip8.com:6825","type":"vmess","server":"212.50.255.148","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-515333@c68s5.jjvip8.com:6825","type":"vmess","server":"104.193.11.119","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-515333@c68s801.jjvip8.com:6825","type":"vmess","server":"174.137.50.177","port":6825,"cipher":"auto","uuid":"0a5645c4-cd91-4cf5-87e6-920e1bde6005","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-463251@c78s1.jjvip8.com:63171","type":"ss","server":"65.49.219.190","port":63171,"password":"ZVvtMk5tkMPnvtJ2","cipher":"aes-256-gcm"}
-  - {"name":"JMS-463251@c78s2.jjvip8.com:63171","type":"ss","server":"138.128.222.14","port":63171,"password":"ZVvtMk5tkMPnvtJ2","cipher":"aes-256-gcm"}
-  - {"name":"JMS-463251@c78s3.jjvip8.com:63171","type":"vmess","server":"199.19.110.73","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-463251@c78s4.jjvip8.com:63171","type":"vmess","server":"178.157.59.12","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-463251@c78s5.jjvip8.com:63171","type":"vmess","server":"104.193.9.121","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JMS-463251@c78s801.jjvip8.com:63171","type":"vmess","server":"174.137.49.89","port":63171,"cipher":"auto","uuid":"3f405ae0-e4f6-4ab5-8ca9-0bfe0717ed86","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+proxies: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
+      - 🎯 全球直连
       - ♻️ 自动选择
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
+      - .*
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
+      - .*
   - name: ⚖️ 负载均衡-轮询
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    proxies:
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
     strategy: round-robin
-  - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
+      - .*
+  - name: ⚖️ 负载均衡-散列
     strategy: consistent-hashing
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    proxies:
+      - .*
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -174,88 +59,19 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
+      - .*
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
+      - .*
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
+      - .*
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -275,31 +91,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - JMS-373767@c2s1.jjvip8.com:56165
-      - JMS-373767@c2s2.jjvip8.com:56165
-      - JMS-373767@c2s3.jjvip8.com:56165
-      - JMS-373767@c2s4.jjvip8.com:56165
-      - JMS-373767@c2s5.jjvip8.com:56165
-      - JMS-373767@c2s801.jjvip8.com:56165
-      - JMS-690839@c81s1.jjvip8.com:6805
-      - JMS-690839@c81s2.jjvip8.com:6805
-      - JMS-690839@c81s3.jjvip8.com:6805
-      - JMS-690839@c81s4.jjvip8.com:6805
-      - JMS-690839@c81s5.jjvip8.com:6805
-      - JMS-690839@c81s801.jjvip8.com:6805
-      - JMS-515333@c68s1.jjvip8.com:6825
-      - JMS-515333@c68s2.jjvip8.com:6825
-      - JMS-515333@c68s3.jjvip8.com:6825
-      - JMS-515333@c68s4.jjvip8.com:6825
-      - JMS-515333@c68s5.jjvip8.com:6825
-      - JMS-515333@c68s801.jjvip8.com:6825
-      - JMS-463251@c78s1.jjvip8.com:63171
-      - JMS-463251@c78s2.jjvip8.com:63171
-      - JMS-463251@c78s3.jjvip8.com:63171
-      - JMS-463251@c78s4.jjvip8.com:63171
-      - JMS-463251@c78s5.jjvip8.com:63171
-      - JMS-463251@c78s801.jjvip8.com:63171
-
+      - .*
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
